@@ -1,9 +1,13 @@
-wat!
+# tempjson
+
+## wat
 Example of some ESP8266 Arduino code to read a ds18b20 temperature sensor 
 and present the results as a JSON-ish API.
 
-how!
-open it in arduino and upload to your ESP8266. 
+## how
+
+open .ino in arduino. edit wifi info and GPIO pin to match the way you wired it up.
+and upload to your ESP8266. 
 
 status screen in serial monitor will show its ip address.
 
@@ -16,9 +20,9 @@ then hit `http://[ip]/api` and get
 }
 ```
 
-hookup!
-[gnd, 3.3v, d4](http://www.modernmethod.com/send/files/tempjsonhookup.jpg)
+## hookup
+![gnd, 3.3v, d4](http://www.modernmethod.com/send/files/tempjsonhookup.jpg)
 
-license!
+## license
 whatever
 
