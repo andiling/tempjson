@@ -12,7 +12,8 @@ and upload to your ESP8266.
 status screen in serial monitor will show its ip address.
 
 then hit `http://[ip]/api` and get
-```{
+```
+{
 	temp: [
   	25,
 	  77
